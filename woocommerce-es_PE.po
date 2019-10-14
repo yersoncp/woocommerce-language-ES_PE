@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-10-13 07:16+0000\n"
+"PO-Revision-Date: 2019-10-14 03:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16670,6 +16670,8 @@ msgid ""
 "No shipping method has been selected. Please double check your address, or "
 "contact us if you need any help."
 msgstr ""
+"No se ha seleccionado ningún método de envío. Verifique su dirección o "
+"contáctenos si necesita ayuda."
 
 #: includes/class-wc-checkout.php:825 includes/class-wc-form-handler.php:406
 #: includes/class-wc-form-handler.php:413
@@ -16731,7 +16733,7 @@ msgstr "(sin impuestos)"
 
 #: includes/class-wc-countries.php:624
 msgid "Apartment, suite, unit etc. (optional)"
-msgstr ""
+msgstr "Departamento, piso, interior, etc... (opcional)"
 
 #: includes/class-wc-countries.php:626
 msgid "Apartment, suite, unit etc."
@@ -16749,7 +16751,7 @@ msgstr "Dirección"
 #. translators: use local order of street name and house number.
 #: includes/class-wc-countries.php:662
 msgid "House number and street name"
-msgstr ""
+msgstr "Nombre de la calle y número de casa"
 
 #: includes/class-wc-countries.php:676
 msgid "Town / City"
@@ -27429,7 +27431,7 @@ msgstr ""
 
 #: templates/checkout/form-billing.php:24
 msgid "Billing &amp; Shipping"
-msgstr "Facturación &amp; Envíos"
+msgstr "Facturación y Envío"
 
 #: templates/checkout/form-billing.php:53
 msgid "Create an account?"
