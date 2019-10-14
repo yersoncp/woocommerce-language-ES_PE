@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-10-14 03:32+0000\n"
+"PO-Revision-Date: 2019-10-14 07:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18758,7 +18758,7 @@ msgstr ""
 #: includes/customizer/class-wc-shop-customizer.php:724
 #: includes/wc-template-functions.php:793
 msgid "I have read and agree to the website %s"
-msgstr ""
+msgstr "He leído y acepto los %s del sitio web."
 
 #: includes/customizer/class-wc-shop-customizer.php:748
 msgid "Highlight required fields with an asterisk"
@@ -27358,7 +27358,7 @@ msgstr "Cambiar dirección"
 
 #: templates/cart/cart-shipping.php:54
 msgid "Shipping options will be updated during checkout."
-msgstr ""
+msgstr "Las opciones de envío se actualizarán durante el pago."
 
 #: templates/cart/cart-shipping.php:61
 msgid "Enter your address to view shipping options."
