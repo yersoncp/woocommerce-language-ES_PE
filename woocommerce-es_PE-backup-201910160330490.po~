@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-10-14 07:06+0000\n"
+"PO-Revision-Date: 2019-10-16 03:29+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,7 +14,7 @@ msgstr ""
 "POT-Creation-Date: 2019-10-09 11:55:34+00:00\n"
 "Last-Translator: admin <dev-email@flywheel.local>\n"
 "Language-Team: Español de Perú\n"
-"X-Loco-Version: 2.3.0; wp-5.2.3"
+"X-Loco-Version: 2.3.0; wp-5.2.4"
 
 #: i18n/continents.php:15
 msgid "Africa"
@@ -18758,7 +18758,7 @@ msgstr ""
 #: includes/customizer/class-wc-shop-customizer.php:724
 #: includes/wc-template-functions.php:793
 msgid "I have read and agree to the website %s"
-msgstr ""
+msgstr "He leído y acepto los %s del sitio web."
 
 #: includes/customizer/class-wc-shop-customizer.php:748
 msgid "Highlight required fields with an asterisk"
@@ -27895,11 +27895,11 @@ msgstr ""
 
 #: templates/myaccount/orders.php:101
 msgid "Go to the shop"
-msgstr ""
+msgstr "Ir a comprar"
 
 #: templates/myaccount/orders.php:103
 msgid "No order has been made yet."
-msgstr ""
+msgstr "Aún no tienes ningún pedido."
 
 #. translators: 1: credit card type 2: last 4 digits
 #: templates/myaccount/payment-methods.php:49
