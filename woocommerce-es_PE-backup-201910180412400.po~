@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-10-16 03:29+0000\n"
+"PO-Revision-Date: 2019-10-18 04:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -7390,8 +7390,8 @@ msgstr[1] "<strong>%s ordenes</strong> procesamiento en espera"
 #: includes/admin/class-wc-admin-dashboard.php:190
 msgid "<strong>%s order</strong> on-hold"
 msgid_plural "<strong>%s orders</strong> on-hold"
-msgstr[0] "<strong>%s orders</strong> en espera"
-msgstr[1] "<strong>%s orderess</strong> en espera"
+msgstr[0] "<strong>%s pedido</strong> en espera"
+msgstr[1] "<strong>%s perdidos</strong> en espera"
 
 #. translators: %s: order count
 #: includes/admin/class-wc-admin-dashboard.php:254
@@ -8155,7 +8155,7 @@ msgstr "Borrador del pedido actualizado."
 
 #: includes/admin/class-wc-admin-post-types.php:158
 msgid "Order updated and sent."
-msgstr ""
+msgstr "Pedido actualizado y enviado."
 
 #: includes/admin/class-wc-admin-post-types.php:163
 #: includes/admin/class-wc-admin-post-types.php:166
@@ -11257,15 +11257,15 @@ msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-actions.php:37
 msgid "Email invoice / order details to customer"
-msgstr ""
+msgstr "Factura por correo electrónico / detalles del pedido al cliente"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-actions.php:38
 msgid "Resend new order notification"
-msgstr ""
+msgstr "Reenviar notificación de pedido nuevo"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-actions.php:39
 msgid "Regenerate download permissions"
-msgstr ""
+msgstr "Volver a generar permisos de descarga"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-actions.php:49
 msgid "Choose an action..."
@@ -11302,11 +11302,11 @@ msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:219
 msgid "Customer IP: %s"
-msgstr ""
+msgstr "IP del cliente: %s"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:233
 msgid "Date created:"
-msgstr ""
+msgstr "Fecha de creación:"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:236
 msgid "h"
@@ -11319,7 +11319,7 @@ msgstr "m"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:244
 msgid "Status:"
-msgstr ""
+msgstr "Estado:"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:249
 msgid "Customer payment page &rarr;"
@@ -11331,11 +11331,11 @@ msgstr "Cliente:"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:278
 msgid "View other orders &rarr;"
-msgstr ""
+msgstr "Ver otros pedidos &rarr;"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:283
 msgid "Profile &rarr;"
-msgstr ""
+msgstr "Perfil &rarr;"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:303
 #: includes/admin/reports/class-wc-report-downloads.php:198
@@ -11433,7 +11433,7 @@ msgstr "Nota privada"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-notes.php:42
 msgid "Note to customer"
-msgstr ""
+msgstr "Nota al cliente"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-notes.php:44
 #: includes/admin/meta-boxes/views/html-order-items.php:361
@@ -11648,7 +11648,7 @@ msgstr "Para editar este orden cambia el estado de nuevo a \"Pendiente\""
 
 #: includes/admin/meta-boxes/views/html-order-items.php:229
 msgid "This order is no longer editable."
-msgstr ""
+msgstr "Este pedido ya no es editable."
 
 #: includes/admin/meta-boxes/views/html-order-items.php:232
 #: includes/class-wc-order.php:1992
@@ -13098,7 +13098,7 @@ msgstr ""
 #: includes/customizer/class-wc-shop-customizer.php:756
 #: includes/customizer/class-wc-shop-customizer.php:799
 msgid "Privacy policy"
-msgstr ""
+msgstr "Política de privacidad"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:135
 msgid ""
@@ -13266,7 +13266,7 @@ msgstr ""
 #: includes/customizer/class-wc-shop-customizer.php:757
 #: includes/customizer/class-wc-shop-customizer.php:811
 msgid "Terms and conditions"
-msgstr ""
+msgstr "Términos y condiciones"
 
 #: includes/admin/settings/class-wc-settings-advanced.php:134
 msgid ""
@@ -16651,10 +16651,12 @@ msgstr "%s es un campo requerido."
 msgid ""
 "Please read and accept the terms and conditions to proceed with your order."
 msgstr ""
+"Por favor lea y acepte los términos y condiciones para continuar con su "
+"pedido."
 
 #: includes/class-wc-checkout.php:806
 msgid "Please enter an address to continue."
-msgstr ""
+msgstr "Por favor, introduzca una dirección para continuar."
 
 #. translators: %s: shipping location
 #: includes/class-wc-checkout.php:809
@@ -17370,7 +17372,7 @@ msgstr ""
 #. translators: 1: old order status 2: new order status
 #: includes/class-wc-order.php:367
 msgid "Order status changed from %1$s to %2$s."
-msgstr ""
+msgstr "El estado del pedido cambió de %1$s a %2$s."
 
 #. translators: %s: new order status
 #: includes/class-wc-order.php:373
@@ -18954,19 +18956,19 @@ msgstr ""
 
 #: includes/emails/class-wc-email-customer-completed-order.php:82
 msgid "Your {site_title} order is now complete"
-msgstr ""
+msgstr "Tu pedido de {site_title} está completado."
 
 #: includes/emails/class-wc-email-customer-completed-order.php:92
 msgid "Thanks for shopping with us"
-msgstr ""
+msgstr "Gracias por comprar con nosotros"
 
 #: includes/emails/class-wc-email-customer-completed-order.php:140
 msgid "Thanks for shopping with us."
-msgstr ""
+msgstr "Gracias por comprar con nosotros."
 
 #: includes/emails/class-wc-email-customer-invoice.php:32
 msgid "Customer invoice / Order details"
-msgstr ""
+msgstr "Factura del cliente / Detalles del pedido"
 
 #: includes/emails/class-wc-email-customer-invoice.php:33
 msgid ""
@@ -18995,7 +18997,7 @@ msgstr ""
 #: includes/emails/class-wc-email-customer-invoice.php:115
 #: includes/emails/class-wc-email-customer-processing-order.php:144
 msgid "Thanks for using {site_address}!"
-msgstr ""
+msgstr "¡Gracias por comprar en {site_address}!"
 
 #: includes/emails/class-wc-email-customer-invoice.php:207
 msgid "Subject (paid)"
@@ -19027,7 +19029,7 @@ msgstr "Bienvenido a {site_title}"
 
 #: includes/emails/class-wc-email-customer-new-account.php:167
 msgid "We look forward to seeing you soon."
-msgstr ""
+msgstr "Esperamos verte pronto."
 
 #: includes/emails/class-wc-email-customer-note.php:39
 msgid "Customer note"
@@ -19048,7 +19050,7 @@ msgstr "Se ha añadido una nota a tu pedido"
 
 #: includes/emails/class-wc-email-customer-on-hold-order.php:32
 msgid "Order on-hold"
-msgstr ""
+msgstr "Pedido en espera"
 
 #: includes/emails/class-wc-email-customer-on-hold-order.php:33
 msgid ""
@@ -19059,7 +19061,7 @@ msgstr ""
 #: includes/emails/class-wc-email-customer-on-hold-order.php:57
 #: includes/emails/class-wc-email-customer-processing-order.php:59
 msgid "Your {site_title} order has been received!"
-msgstr ""
+msgstr "¡Tu pedido de {site_title} ha sido recibido!"
 
 #: includes/emails/class-wc-email-customer-on-hold-order.php:67
 #: includes/emails/class-wc-email-customer-processing-order.php:69
@@ -19068,7 +19070,7 @@ msgstr "Gracias por tu pedido"
 
 #: includes/emails/class-wc-email-customer-on-hold-order.php:142
 msgid "We look forward to fulfilling your order soon."
-msgstr ""
+msgstr "Esperamos entregar su pedido pronto."
 
 #: includes/emails/class-wc-email-customer-processing-order.php:33
 msgid "Processing order"
@@ -19082,7 +19084,7 @@ msgstr ""
 
 #: includes/emails/class-wc-email-customer-refunded-order.php:46
 msgid "Refunded order"
-msgstr ""
+msgstr "Pedido reembolsado"
 
 #: includes/emails/class-wc-email-customer-refunded-order.php:47
 msgid ""
@@ -19179,15 +19181,15 @@ msgstr ""
 
 #: includes/emails/class-wc-email-new-order.php:65
 msgid "[{site_title}]: New order #{order_number}"
-msgstr ""
+msgstr "[{site_title}]: Nuevo pedido #{order_number}"
 
 #: includes/emails/class-wc-email-new-order.php:75
 msgid "New Order: #{order_number}"
-msgstr ""
+msgstr "Nuevo pedido:  #{order_number}"
 
 #: includes/emails/class-wc-email-new-order.php:149
 msgid "Congratulations on the sale 🙌"
-msgstr ""
+msgstr "Felicidades por la venta 🙌"
 
 #: includes/emails/class-wc-email.php:702
 msgid "Plain text"
@@ -22675,7 +22677,7 @@ msgstr ""
 
 #: includes/wc-stock-functions.php:234
 msgid "Stock levels reduced:"
-msgstr ""
+msgstr "Niveles de stock reducido:"
 
 #. translators: %s item name.
 #: includes/wc-stock-functions.php:277
@@ -22692,11 +22694,11 @@ msgstr ""
 
 #: includes/wc-template-functions.php:901
 msgid "privacy policy"
-msgstr ""
+msgstr "política de privacidad"
 
 #: includes/wc-template-functions.php:902
 msgid "terms and conditions"
-msgstr ""
+msgstr "términos y condiciones"
 
 #. translators: %s: search query
 #: includes/wc-template-functions.php:1041
@@ -22790,6 +22792,7 @@ msgstr ""
 msgid ""
 "An account is already registered with your email address. Please log in."
 msgstr ""
+"Ya estás registrado con este correo electrónico. Por favor Inicie sesión."
 
 #: includes/wc-user-functions.php:57
 msgid "Please enter a valid account username."
@@ -24458,7 +24461,7 @@ msgstr ""
 #: packages/woocommerce-rest-api/src/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1167
 #: packages/woocommerce-rest-api/src/Controllers/Version2/class-wc-rest-orders-v2-controller.php:971
 msgid "Customer's IP address."
-msgstr ""
+msgstr "Dirección IP del cliente."
 
 #: packages/woocommerce-rest-api/src/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1173
 #: packages/woocommerce-rest-api/src/Controllers/Version2/class-wc-rest-orders-v2-controller.php:977
@@ -27541,7 +27544,7 @@ msgstr "Email:"
 msgid ""
 "Alas. Just to let you know &mdash; order #%1$s belonging to %2$s has been "
 "cancelled:"
-msgstr ""
+msgstr "El pedido #%1$s que pertenece a %2$s ha sido cancelado:"
 
 #. translators: %1$s: Order number. %2$s: Customer full name.
 #: templates/emails/admin-failed-order.php:28
@@ -27553,7 +27556,7 @@ msgstr ""
 #: templates/emails/admin-new-order.php:26
 #: templates/emails/plain/admin-new-order.php:25
 msgid "You’ve received the following order from %s:"
-msgstr ""
+msgstr "Recibiste el siguiente pedido de %s:"
 
 #. translators: %s: Customer first name
 #. translators: %s Customer first name
@@ -27575,7 +27578,7 @@ msgstr ""
 #: templates/emails/plain/customer-refunded-order.php:25
 #: templates/emails/plain/customer-reset-password.php:25
 msgid "Hi %s,"
-msgstr ""
+msgstr "Hola %s,"
 
 #. translators: %s: Site title
 #: templates/emails/customer-completed-order.php:30
@@ -27631,6 +27634,8 @@ msgid ""
 "Thanks for your order. It’s on-hold until we confirm that payment has been "
 "received. In the meantime, here’s a reminder of what you ordered:"
 msgstr ""
+"Tu pedido está en espera hasta que confirmemos que se ha recibido el pago. "
+"Mientras tanto, aquí hay un resumen de tu pedido:"
 
 #. translators: %s: Order number
 #: templates/emails/customer-processing-order.php:30
@@ -27639,6 +27644,7 @@ msgid ""
 "Just to let you know &mdash; we've received your order #%s, and it is now "
 "being processed:"
 msgstr ""
+"Solo para avisarle: hemos recibido su pedido #%s y ahora se está procesando:"
 
 #. translators: %s: Site title
 #: templates/emails/customer-refunded-order.php:32
@@ -27755,8 +27761,8 @@ msgstr "Mostrando el único resultado"
 #: templates/loop/result-count.php:30
 msgid "Showing all %d result"
 msgid_plural "Showing all %d results"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Mostrando %d resultado"
+msgstr[1] "Mostrando %d resultados"
 
 #: templates/myaccount/dashboard.php:28
 msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)"
@@ -28473,7 +28479,7 @@ msgstr ""
 #: includes/class-wc-post-types.php:491 includes/wc-order-functions.php:95
 msgctxt "Order status"
 msgid "Pending payment"
-msgstr ""
+msgstr "Pendiente de pago"
 
 #: includes/class-wc-post-types.php:500 includes/wc-order-functions.php:96
 msgctxt "Order status"
@@ -28588,7 +28594,7 @@ msgstr ""
 #: packages/woocommerce-rest-api/src/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:1103
 msgctxt "Page setting"
 msgid "Terms and conditions"
-msgstr ""
+msgstr "Términos y condiciones"
 
 #: templates/global/quantity-input.php:42
 msgctxt "Product quantity input tooltip"
