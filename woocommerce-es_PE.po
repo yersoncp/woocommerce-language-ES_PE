@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-10-18 04:12+0000\n"
+"PO-Revision-Date: 2019-10-18 05:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10856,7 +10856,7 @@ msgstr "Nota"
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:425
 msgid "Edit this order"
-msgstr ""
+msgstr "Editar este pedido"
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:466
 #: includes/admin/meta-boxes/views/html-order-items.php:38
@@ -10934,8 +10934,8 @@ msgstr "Estado de la orden cambiada por editar a granel:"
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:723
 msgid "%d order status changed."
 msgid_plural "%d order statuses changed."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Se modificó el estado de pedido %d."
+msgstr[1] "Se modificó los estados del pedido %d."
 
 #. translators: %d: orders count
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:731
@@ -11286,7 +11286,7 @@ msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-actions.php:107
 msgid "Order details manually sent to customer."
-msgstr ""
+msgstr "Detalles del pedido enviados manualmente al cliente."
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:177
 msgid "%1$s #%2$s details"
@@ -16268,7 +16268,7 @@ msgstr "Eliminado %s"
 
 #: includes/class-wc-ajax.php:1327
 msgid "Order not editable"
-msgstr ""
+msgstr "Pedido no editable"
 
 #. translators: $1: Date created, $2 Time created
 #: includes/class-wc-ajax.php:1473
@@ -17214,6 +17214,8 @@ msgid ""
 "Your account was created successfully and a password has been sent to your "
 "email address."
 msgstr ""
+"Su cuenta se creó correctamente y se envió una contraseña a su dirección de "
+"correo electrónico."
 
 #: includes/class-wc-form-handler.php:1127
 msgid ""
@@ -17639,7 +17641,7 @@ msgstr "Aquí es donde puedes añadir nuevos productos en tu tienda."
 
 #: includes/class-wc-post-types.php:381
 msgid "Add order"
-msgstr ""
+msgstr "Agregar pedido"
 
 #: includes/class-wc-post-types.php:382
 msgid "Add new order"
@@ -17647,7 +17649,7 @@ msgstr ""
 
 #: includes/class-wc-post-types.php:384
 msgid "Edit order"
-msgstr ""
+msgstr "Editar pedido"
 
 #: includes/class-wc-post-types.php:385
 #: includes/emails/class-wc-email-new-order.php:31
@@ -18847,17 +18849,17 @@ msgstr ""
 
 #: includes/emails/class-wc-email-cancelled-order.php:59
 msgid "[{site_title}]: Order #{order_number} has been cancelled"
-msgstr ""
+msgstr "[{site_title}]: El pedido #{order_number} fue cancelado"
 
 #: includes/emails/class-wc-email-cancelled-order.php:69
 msgid "Order Cancelled: #{order_number}"
-msgstr ""
+msgstr "Pedido cancelado: #{order_number}"
 
 #: includes/emails/class-wc-email-cancelled-order.php:144
 #: includes/emails/class-wc-email-customer-note.php:160
 #: includes/emails/class-wc-email-customer-reset-password.php:171
 msgid "Thanks for reading."
-msgstr ""
+msgstr "Gracias por leer."
 
 #: includes/emails/class-wc-email-cancelled-order.php:155
 #: includes/emails/class-wc-email-customer-refunded-order.php:241
@@ -18980,19 +18982,19 @@ msgstr ""
 
 #: includes/emails/class-wc-email-customer-invoice.php:56
 msgid "Invoice for order #{order_number} on {site_title}"
-msgstr ""
+msgstr "Factura para el pedido #{order_number} en {site_title}"
 
 #: includes/emails/class-wc-email-customer-invoice.php:58
 msgid "Your latest {site_title} invoice"
-msgstr ""
+msgstr "Tu última factura de {site_title}"
 
 #: includes/emails/class-wc-email-customer-invoice.php:71
 msgid "Invoice for order #{order_number}"
-msgstr ""
+msgstr "Factura para el pedido  #{order_number}"
 
 #: includes/emails/class-wc-email-customer-invoice.php:73
 msgid "Your invoice for order #{order_number}"
-msgstr ""
+msgstr "Tu factura para el pedido #{order_number}"
 
 #: includes/emails/class-wc-email-customer-invoice.php:115
 #: includes/emails/class-wc-email-customer-processing-order.php:144
@@ -19021,7 +19023,7 @@ msgstr ""
 
 #: includes/emails/class-wc-email-customer-new-account.php:76
 msgid "Your {site_title} account has been created!"
-msgstr ""
+msgstr "¡Tu cuenta de {site_title} ha sido creada!"
 
 #: includes/emails/class-wc-email-customer-new-account.php:86
 msgid "Welcome to {site_title}"
@@ -19094,10 +19096,11 @@ msgstr ""
 #: includes/emails/class-wc-email-customer-refunded-order.php:72
 msgid "Your {site_title} order #{order_number} has been partially refunded"
 msgstr ""
+"Tu pedido #{order_number} en {site_title} ha sido parcialmente reembolsado"
 
 #: includes/emails/class-wc-email-customer-refunded-order.php:74
 msgid "Your {site_title} order #{order_number} has been refunded"
-msgstr ""
+msgstr "Tu pedido #{order_number} en {site_title} ha sido reembolsado"
 
 #: includes/emails/class-wc-email-customer-refunded-order.php:87
 msgid "Partial Refund: Order {order_number}"
@@ -19105,11 +19108,11 @@ msgstr ""
 
 #: includes/emails/class-wc-email-customer-refunded-order.php:89
 msgid "Order Refunded: {order_number}"
-msgstr ""
+msgstr "Pedido reembolsado: #{order_number}"
 
 #: includes/emails/class-wc-email-customer-refunded-order.php:230
 msgid "We hope to see you again soon."
-msgstr ""
+msgstr "Esperamos volver a verte pronto."
 
 #: includes/emails/class-wc-email-customer-refunded-order.php:247
 msgid "Full refund subject"
@@ -19142,11 +19145,11 @@ msgstr ""
 
 #: includes/emails/class-wc-email-customer-reset-password.php:82
 msgid "Password Reset Request for {site_title}"
-msgstr ""
+msgstr "Solicitud de restablecimiento de contraseña para {site_title}"
 
 #: includes/emails/class-wc-email-customer-reset-password.php:92
 msgid "Password Reset Request"
-msgstr ""
+msgstr "Solicitud de restablecimiento de contraseña"
 
 #: includes/emails/class-wc-email-failed-order.php:31
 msgid "Failed order"
@@ -22583,7 +22586,7 @@ msgstr ""
 
 #: includes/wc-order-functions.php:775
 msgid "Order fully refunded."
-msgstr ""
+msgstr "Pedido totalmente reembolsado."
 
 #: includes/wc-order-functions.php:781
 msgid ""
@@ -22686,7 +22689,7 @@ msgstr ""
 
 #: includes/wc-stock-functions.php:288
 msgid "Stock levels increased:"
-msgstr ""
+msgstr "Niveles de stock incrementado:"
 
 #: includes/wc-template-functions.php:27
 msgid "Checkout is not available whilst your cart is empty."
@@ -22786,7 +22789,7 @@ msgstr "Selecciona una categoría"
 
 #: includes/wc-update-functions.php:920
 msgid "Order fully refunded"
-msgstr ""
+msgstr "Pedido totalmente reembolsado"
 
 #: includes/wc-user-functions.php:47
 msgid ""
@@ -27584,7 +27587,7 @@ msgstr "Hola %s,"
 #: templates/emails/customer-completed-order.php:30
 #: templates/emails/plain/customer-completed-order.php:27
 msgid "We have finished processing your order."
-msgstr ""
+msgstr "Hemos terminado de procesar tu pedido."
 
 #. translators: %1$s Site title, %2$s Order pay link
 #: templates/emails/customer-invoice.php:38
@@ -27602,7 +27605,7 @@ msgstr ""
 #: templates/emails/customer-invoice.php:55
 #: templates/emails/plain/customer-invoice.php:39
 msgid "Here are the details of your order placed on %s:"
-msgstr ""
+msgstr "Aquí están los detalles de tu pedido realizado el %s:"
 
 #. translators: %1$s: Site title, %2$s: Username, %3$s: My account link
 #: templates/emails/customer-new-account.php:25
@@ -27612,21 +27615,24 @@ msgid ""
 "access your account area to view orders, change your password, and more at: "
 "%3$s"
 msgstr ""
+"Gracias por crear una cuenta en %1$s. Su nombre de usuario es %2$s. Puedes "
+"acceder a tu cuenta para ver los pedidos, cambiar tu contraseña y más en: "
+"%3$s"
 
 #. translators: %s Auto generated password
 #: templates/emails/customer-new-account.php:28
 msgid "Your password has been automatically generated: %s"
-msgstr ""
+msgstr "Tu contraseña ha sido generada automáticamente: %s"
 
 #: templates/emails/customer-note.php:29
 #: templates/emails/plain/customer-note.php:26
 msgid "The following note has been added to your order:"
-msgstr ""
+msgstr "Se ha agregado la siguiente nota a tu pedido:"
 
 #: templates/emails/customer-note.php:33
 #: templates/emails/plain/customer-note.php:34
 msgid "As a reminder, here are your order details:"
-msgstr ""
+msgstr "Como recordatorio, aquí están los detalles de tu pedido:"
 
 #: templates/emails/customer-on-hold-order.php:27
 #: templates/emails/plain/customer-on-hold-order.php:26
@@ -27653,6 +27659,8 @@ msgid ""
 "Your order on %s has been partially refunded. There are more details below "
 "for your reference:"
 msgstr ""
+"Tu pedido en %s ha sido reembolsado parcialmente. Hay más detalles a "
+"continuación para su referencia:"
 
 #. translators: %s: Site title
 #: templates/emails/customer-refunded-order.php:35
@@ -27661,12 +27669,15 @@ msgid ""
 "Your order on %s has been refunded. There are more details below for your "
 "reference:"
 msgstr ""
+"Tu pedido en %s ha sido reembolsado. Hay más detalles a continuación para su "
+"referencia:"
 
 #. translators: %s: Store name
 #: templates/emails/customer-reset-password.php:29
 #: templates/emails/plain/customer-reset-password.php:27
 msgid "Someone has requested a new password for the following account on %s:"
 msgstr ""
+"Alguien ha solicitado una nueva contraseña para la siguiente cuenta en %s:"
 
 #. translators: %s: Customer username
 #. translators: %s Customer username
@@ -27681,6 +27692,8 @@ msgid ""
 "If you didn't make this request, just ignore this email. If you'd like to "
 "proceed:"
 msgstr ""
+"Si no realizó esta solicitud, simplemente ignore este correo electrónico. Si "
+"desea continuar:"
 
 #: templates/emails/customer-reset-password.php:35
 msgid "Click here to reset your password"
@@ -27710,17 +27723,17 @@ msgstr "Datos de cliente"
 #. translators: %s: Order ID.
 #: templates/emails/email-order-details.php:34
 msgid "[Order #%s]"
-msgstr ""
+msgstr "[Pedido #%s]"
 
 #. translators: %s Auto generated password
 #: templates/emails/plain/customer-new-account.php:31
 msgid "Your password has been automatically generated: %s."
-msgstr ""
+msgstr "Tu contraseña ha sido generada automáticamente: %s"
 
 #. translators: %1$s: Order ID. %2$s: Order date
 #: templates/emails/plain/email-order-details.php:23
 msgid "[Order #%1$s] (%2$s)"
-msgstr ""
+msgstr "[Pedido #%1$s] (%2$s)"
 
 #. translators: %s: Order link.
 #: templates/emails/plain/email-order-details.php:51
@@ -27855,7 +27868,7 @@ msgstr "Vuelve a introducir tu nueva contraseña"
 
 #: templates/myaccount/lost-password-confirmation.php:20
 msgid "Password reset email has been sent."
-msgstr ""
+msgstr "Se ha enviado un correo electrónico de restablecimiento de contraseña."
 
 #: templates/myaccount/lost-password-confirmation.php:23
 msgid ""
@@ -27863,6 +27876,10 @@ msgid ""
 "account, but may take several minutes to show up in your inbox. Please wait "
 "at least 10 minutes before attempting another reset."
 msgstr ""
+"Se ha enviado un correo electrónico de restablecimiento de contraseña a la "
+"dirección de correo electrónico registrada en su cuenta, pero puede tardar "
+"varios minutos en aparecer en su bandeja de entrada. Espere al menos 10 "
+"minutos antes de intentar otro reinicio."
 
 #: templates/myaccount/my-address.php:46
 msgid "The following addresses will be used on the checkout page by default."
