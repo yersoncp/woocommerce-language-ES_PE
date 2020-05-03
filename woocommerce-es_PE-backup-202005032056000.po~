@@ -16593,7 +16593,7 @@ msgstr "Nombre de usuario"
 
 #: includes/class-wc-checkout.php:260
 msgid "Create account password"
-msgstr ""
+msgstr "Crea una contraseña para tu cuenta"
 
 #: includes/class-wc-checkout.php:262 templates/auth/form-login.php:44
 #: templates/global/form-login.php:38 templates/myaccount/form-login.php:43
@@ -17264,7 +17264,7 @@ msgstr ""
 
 #: includes/class-wc-frontend-scripts.php:587
 msgid "Please enter a stronger password."
-msgstr ""
+msgstr "Por favor reforzar la contraseña"
 
 #: includes/class-wc-install.php:422
 msgid "Monthly"
@@ -27728,7 +27728,7 @@ msgstr "[Pedido #%s]"
 #. translators: %s Auto generated password
 #: templates/emails/plain/customer-new-account.php:31
 msgid "Your password has been automatically generated: %s."
-msgstr ""
+msgstr "Tu contraseña ha sido generada automáticamente: %s"
 
 #. translators: %1$s: Order ID. %2$s: Order date
 #: templates/emails/plain/email-order-details.php:23
@@ -28077,7 +28077,7 @@ msgstr "Añadir un comentario"
 #. translators: %s is product title
 #: templates/single-product-reviews.php:75
 msgid "Be the first to review &ldquo;%s&rdquo;"
-msgstr ""
+msgstr "Sé el primero en opinar &ldquo;%s&rdquo;"
 
 #. translators: %s is product title
 #: templates/single-product-reviews.php:77
