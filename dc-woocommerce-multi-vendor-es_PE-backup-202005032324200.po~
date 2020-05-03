@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WC Marketplace - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-03 23:24+0000\n"
+"PO-Revision-Date: 2020-05-03 22:35+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2694,7 +2694,7 @@ msgstr "Base de la tienda del vendedor"
 #: classes/class-wcmp-admin.php:173 classes/class-wcmp-taxonomy.php:23
 msgctxt "slug"
 msgid "vendor"
-msgstr "tienda"
+msgstr "vendedor"
 
 #: classes/class-wcmp-admin.php:210
 msgid "Frontend  Dashboard"
